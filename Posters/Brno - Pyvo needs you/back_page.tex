@@ -1,0 +1,71 @@
+\documentclass[8pt]{article}
+\usepackage[a5paper]{geometry}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{fontspec}
+\usepackage{enumitem}
+\usepackage{tgpagella}
+\usepackage{microtype}
+
+\newfontfamily\headingfont[]{Bree Serif}
+\titleformat*{\section}{\LARGE\headingfont}
+\titleformat*{\subsection}{\Large\headingfont}
+\titleformat*{\subsubsection}{\large\headingfont}
+\renewcommand{\maketitlehooka}{\headingfont}
+
+\renewcommand{\baselinestretch}{1.25} 
+
+\setmainfont[Numbers=OldStyle]{TeX Gyre Pagella}
+
+\setlength{\parindent}{10pt} 
+
+\begin{document}
+\fontspec{Oxygen}
+\thispagestyle{empty}
+
+\section*{Pomoz organizovat Pyvo}
+
+Organizace Pyva je v zásadě jednoduchá, ale po letech se z~toho stala
+zaběhlá, šedá rutina.
+Chceme novou krev, která časem přijde s~novými nápady!
+
+Chceš-li se zapojit, ozvi se na brno-pyvo@googlegroups.com (či přímo aktuálním
+organizátorům).
+Přidáme tě na organizační chat (Slack), kde se to hemží lidmi, kteří
+jsou ochotní s~přípravami pomoct. Klidně jen občas.
+
+Vždycky je potřeba udělat následující věci – a nebo se s~někým domluvit, aby je
+udělal:
+
+\begin{itemize}[leftmargin=*]
+\item
+    Zarezervovat hospodu (či jiné místo), nejlépe s Wi-Fi,
+\item
+    Vytvořit událost na Facebooku a pozvat ostatní organizátory jako spolupořadatele,
+\item
+    Poslat pull request s informacemi na github.com/pyvec/pyvo-data
+\end{itemize}
+
+\bigskip
+
+\noindent
+Jako bonus se toho dá udělat víc. Nás za ty roky napadlo například:
+
+\begin{itemize}[leftmargin=*]
+\item
+    Vybrat nějaké téma,
+\item
+    Sehnat přednášející (a~projektor a~plátno, případně i mikrofon),
+\item
+    Moderovat,
+\item
+    Sehnat sponzory jídla a pití,
+\item
+    Udělat to celé úplně jinak – pozvat lidi do parku, udělat grilovačku, jet hromadně do Bratislavy...
+\end{itemize}
+
+\noindent
+Další tipy najdeš na http://pyvec-guide.readthedocs.io
+
+\end{document}
